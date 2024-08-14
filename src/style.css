@@ -188,7 +188,7 @@ a:hover {
 	justify-content: space-between;
 
 	align-items: center;
-	margin: 11px 4%;
+	margin: 10px 4%;
 	max-width: 1500px;
 }
 
@@ -242,12 +242,22 @@ footer a.logo {
 	align-items: center;
 }
 
-.longmenu li a {
+.nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.nav ul li a {
 	display: flex;
 	text-transform: uppercase;
 	font-weight: bold;
 	font-style: normal;
 	font-size: 14px;
+}
+
+ul.shortmenu {
+	display: none;
 }
 .bltes {
 	color: #999;
@@ -339,10 +349,11 @@ h2 {
 	transform: scale(1.02) translateY(-3.6px);
 }
 .padext {
-	padding: 0 16px 16px;
+	padding: 16px;
 	display: flex;
 	flex-direction: column;
 	width: 100%;
+	gap: 8px;
 }
 .btline {
 	width: 143px;
@@ -353,7 +364,7 @@ h2 {
 
 .ths {
 	font-size: 18px;
-	margin: 20px 0 5px;
+	margin: 0px;
 	letter-spacing: -0.7px;
 	font-weight: 700;
 }
@@ -421,19 +432,84 @@ a.ba i {
 	}
 
 	.hm .grid {
-		padding-bottom: 30px;
-		margin-bottom: 30px;
+		padding-bottom: 55px;
+		margin-bottom: 35px;
+	}
+
+	.main {
+		margin-top: 35px;
+	}
+
+	.nav {
+		display: flex;
+		width: 100%;
+		background-color: rgba(242, 242, 242, 0.85);
+		backdrop-filter: blur(10px);
+		padding: 3px 4%;
+		justify-content: center;
+		position: fixed;
+		left: 0;
+		z-index: 1;
 	}
 
 	.item {
 	}
 	.header {
 		position: relative;
+		backdrop-filter: none;
+		justify-content: flex-end;
+		flex-direction: column-reverse;
+		align-items: center;
 	}
 	.header-controls {
 		flex-direction: column-reverse;
+		margin-top: 0;
+		margin-bottom: 0;
 	}
-	.header-controls li:nth-child(2) {
-		position: fixed;
+
+	.header-controls li:nth-child(1) {
+		display: flex;
+		justify-content: center;
+	}
+	ul.longmenu {
+		display: none;
+	}
+	ul.shortmenu {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 32px;
+		align-items: center;
+	}
+	.header a.logo {
+		margin-top: 45px;
+	}
+
+	h1 {
+		font-size: 36px;
+		margin: 0px 0 22px;
+	}
+
+	h2 {
+		font-size: 20px;
+		margin-bottom: 36px;
+		line-height: 1.4;
+	}
+}
+
+@media (max-width: 570px) {
+	.grid {
+		grid-template-columns: 100%;
+		row-gap: 52px;
+	}
+	ul.shortmenu {
+		gap: 3px;
+		justify-content: space-between;
+		width: 100%;
+	}
+	h1 {
+		font-size: 37px;
+	}
+	h2 {
+		font-size: 16px;
 	}
 }
