@@ -5,16 +5,8 @@ export function Header() {
 
     return (
         <>
-            <ul className="header-controls">
-                <li>
-                    <LogoBig />
-                </li>
-                <li>
-                    <Nav />
-                </li>
-            </ul>
-
-
+            <LogoBig />
+            <Nav />
         </>
     )
 }

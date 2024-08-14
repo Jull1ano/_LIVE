@@ -10,12 +10,14 @@ export function VdsItem() {
                     <img src={thvds} alt="" />
                 </picture>
             </Link>
-            <div class="ths">New Design System Released</div>
-            <section class="infojos">
-                <div class="info">UI Kit and Visual Principles - Design System</div>
-                <Link className="ba" to="/">
-                    <span>View More</span><i class="fa-solid fa-chevron-right"></i>
-                </Link>
+            <section className="padext">
+                <div class="ths">New Design System Released</div>
+                <section class="infojos">
+                    <div class="info">UI Kit and Visual Principles - Design System</div>
+                    <Link className="ba" to="/">
+                        <span>View More</span><i class="fa-solid fa-chevron-right"></i>
+                    </Link>
+                </section>
             </section>
         </>
     )
