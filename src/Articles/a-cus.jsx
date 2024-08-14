@@ -1,19 +1,19 @@
 import { Link } from "react-router-dom";
-import thraf from '/th/raf.jpg'
+import thcus from '/th/spk.jpg'
 
-export function RafItem() {
+export function CusItem() {
 
     return (
         <>
             <Link className="fl" to="/">
                 <picture>
-                    <img src={thraf} alt="" />
+                    <img src={thcus} alt="" />
                 </picture>
             </Link>
             <section className="padext">
-                <div class="ths">RAF - User Flow</div>
+                <div class="ths">Addressing Customer Needs</div>
                 <section class="infojos">
-                    <div class="info">Mobile Design of User Flow for Refer a Friend Campaign, UX Research and User Journey.</div>
+                    <div class="info">Product Platform, Landing Page, Marketing</div>
                     <Link className="ba" to="/">
                         <span>View More</span><i class="fa-solid fa-chevron-right"></i>
                     </Link>
@@ -23,10 +23,10 @@ export function RafItem() {
     )
 }
 
-export function Raf() {
+export function Cus() {
     return (
         <>
-            <h1>raf</h1>
+            <h1>cus</h1>
         </>
     )
 }

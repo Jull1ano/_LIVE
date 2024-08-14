@@ -1,19 +1,19 @@
 import { Link } from "react-router-dom";
-import thraf from '/th/raf.jpg'
+import thliv from '/th/cdm.jpg'
 
-export function RafItem() {
+export function LivItem() {
 
     return (
         <>
             <Link className="fl" to="/">
                 <picture>
-                    <img src={thraf} alt="" />
+                    <img src={thliv} alt="" />
                 </picture>
             </Link>
             <section className="padext">
-                <div class="ths">RAF - User Flow</div>
+                <div class="ths">Live Data Conference</div>
                 <section class="infojos">
-                    <div class="info">Mobile Design of User Flow for Refer a Friend Campaign, UX Research and User Journey.</div>
+                    <div class="info">Mini Website for SaaS Conference</div>
                     <Link className="ba" to="/">
                         <span>View More</span><i class="fa-solid fa-chevron-right"></i>
                     </Link>
@@ -23,10 +23,10 @@ export function RafItem() {
     )
 }
 
-export function Raf() {
+export function Liv() {
     return (
         <>
-            <h1>raf</h1>
+            <h1>liv</h1>
         </>
     )
 }

@@ -1,19 +1,19 @@
 import { Link } from "react-router-dom";
-import thraf from '/th/raf.jpg'
+import thvmz from '/th/vmz.jpg'
 
-export function RafItem() {
+export function VmzItem() {
 
     return (
         <>
             <Link className="fl" to="/">
                 <picture>
-                    <img src={thraf} alt="" />
+                    <img src={thvmz} alt="" />
                 </picture>
             </Link>
             <section className="padext">
-                <div class="ths">RAF - User Flow</div>
+                <div class="ths">Marketing Summit Award</div>
                 <section class="infojos">
-                    <div class="info">Mobile Design of User Flow for Refer a Friend Campaign, UX Research and User Journey.</div>
+                    <div class="info">Mini Website for SaaS Summit</div>
                     <Link className="ba" to="/">
                         <span>View More</span><i class="fa-solid fa-chevron-right"></i>
                     </Link>
@@ -23,10 +23,10 @@ export function RafItem() {
     )
 }
 
-export function Raf() {
+export function Vmz() {
     return (
         <>
-            <h1>raf</h1>
+            <h1>vmz</h1>
         </>
     )
 }
