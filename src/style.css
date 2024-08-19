@@ -304,9 +304,16 @@ h2 {
 	text-align: center;
 }
 
-.grid {
+/* .grid {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
+	column-gap: 4.2%;
+	row-gap: 62px;
+} */
+.grid {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 	column-gap: 4.2%;
 	row-gap: 62px;
 }
@@ -323,6 +330,10 @@ h2 {
 	align-items: flex-start;
 	background-color: #fff;
 	overflow: hidden;
+
+	width: 30.53%;
+	max-width: 100%;
+
 	border-radius: 14px;
 	box-shadow: 4px 8px 15px 0 rgba(0, 0, 0, 0.03),
 		1px 1px 6px 0px rgba(0, 0, 0, 0.1);
@@ -455,7 +466,9 @@ a.ba i {
 		padding-bottom: 55px;
 		margin-bottom: 35px;
 	}
-
+	.item {
+		width: 47%;
+	}
 	.main {
 		margin-top: 35px;
 	}
@@ -472,8 +485,6 @@ a.ba i {
 		z-index: 1;
 	}
 
-	.item {
-	}
 	.header {
 		position: relative;
 		backdrop-filter: none;
@@ -523,6 +534,9 @@ a.ba i {
 	.grid {
 		grid-template-columns: 100%;
 		row-gap: 52px;
+	}
+	.item {
+		width: 100%;
 	}
 	ul.shortmenu {
 		gap: 3px;
