@@ -453,7 +453,7 @@ span.lis {
 	font-weight: 700;
 	color: #232323;
 	font-size: 13px;
-	padding-bottom: 5px;
+	padding-bottom: 0px;
 }
 
 /* .grid {
@@ -609,6 +609,69 @@ a.ba i {
 	text-align: center;
 	width: 100%;
 }
+.para {
+	width: 50%;
+}
+.item2 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.item2 picture {
+	display: flex;
+	flex-direction: column;
+	gap: 6vw;
+	align-items: center;
+}
+.item2-gap {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	justify-content: space-around;
+	gap: 60px;
+	max-width: 100%;
+}
+
+.item2-gap:last-child {
+	margin-top: 70px;
+}
+
+.vds {
+	display: flex;
+	flex-direction: column;
+	max-width: 100%;
+	border-radius: 8px;
+	box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.1);
+}
+
+.vds img {
+	box-shadow: none;
+}
+
+.vds > img:nth-child(3) {
+	border-radius: 0;
+}
+
+.vds > img:nth-child(4) {
+	border-radius: 0 0px 8px 8px;
+}
+.mb {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: flex-end;
+	gap: 50px;
+}
+.huge {
+	display: flex;
+	width: 1360px;
+	margin: auto 2%;
+	flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+	margin-top: 70px;
+}
 
 @media (max-width: 1100px) {
 	a.back {
@@ -617,7 +680,11 @@ a.ba i {
 	}
 
 	.forceback {
-		margin: 5px 4%;
+		margin: 0;
+		position: fixed;
+		padding: 5px 4%;
+		background-color: rgba(242, 242, 242, 0.85);
+		backdrop-filter: blur(5px);
 	}
 	li.item .main {
 		margin-top: 0;
@@ -641,6 +708,7 @@ a.ba i {
 
 	.nav {
 		display: flex;
+		min-width: 300px;
 		width: 100%;
 		background-color: rgba(242, 242, 242, 0.85);
 		backdrop-filter: blur(10px);
@@ -696,7 +764,7 @@ a.ba i {
 	}
 
 	.article {
-		margin-top: 10px;
+		margin-top: 52px;
 	}
 
 	.article h1 {
@@ -714,19 +782,33 @@ a.ba i {
 		gap: 20px;
 		margin: 0 0 35px 0;
 	}
+
+	.maxc {
+		flex-flow: column;
+	}
+
 	.tit {
 		font-size: 17px;
 	}
+
 	.ziar > p:nth-child(1) {
 		font-size: 14px;
-		padding-bottom: 5px;
+		padding-bottom: 0px;
 	}
+
 	.article p,
 	.article ul {
 		font-size: 14px;
 	}
+
+	.para {
+		width: 70%;
+	}
 	.footer {
 		margin: 45px 0 32px 0;
+	}
+	.mb {
+		gap: 30px;
 	}
 }
 
@@ -759,7 +841,8 @@ a.ba i {
 
 	.article h1 {
 		font-size: 32px;
-		margin: 5px 0 10px;		
+		margin: 12px 0 18px;
+		line-height: 36px;
 	}
 	.article h2 {
 		font-size: 20px;
@@ -770,10 +853,20 @@ a.ba i {
 	}
 	.ziar > p:nth-child(1) {
 		font-size: 13px;
+		padding-bottom: 5px;
 	}
 	.article p,
 	.article ul {
 		font-size: 13px;
 		line-height: 19px;
+	}
+	.item2-gap {
+		gap: 36px;
+	}
+	.para {
+		width: 100%;
+	}
+	.mb {
+		gap: 30px;
 	}
 }
