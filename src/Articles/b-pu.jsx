@@ -5,7 +5,7 @@ export function PuItem() {
 
     return (
         <>
-            <Link className="fl" to="/">
+            <Link className="fl" to="/Pu">
                 <picture>
                     <img src={thpu} alt="" />
                 </picture>
@@ -13,7 +13,7 @@ export function PuItem() {
             <section className="padext">                
                 <section class="infojos">
                 <div class="ths">Pushing the Boundaries</div>
-                    <Link className="ba" to="/">
+                    <Link className="ba" to="/Pu">
                         <span>View More</span><i class="fa-solid fa-chevron-right"></i>
                     </Link>
                 </section>

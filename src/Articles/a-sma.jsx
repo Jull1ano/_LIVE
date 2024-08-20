@@ -5,7 +5,7 @@ export function SmaItem() {
 
     return (
         <>
-            <Link className="fl" to="/">
+            <Link className="fl" to="/Sma">
                 <picture>
                     <img src={thsma} alt="" />
                 </picture>
@@ -14,7 +14,7 @@ export function SmaItem() {
                 <div class="ths">UX User Flow - Gamification</div>
                 <section class="infojos">
                     <div class="info">Mobile Design of User Flow for Smartico Integration, Widgets, Cards, Menus, Casino Offers & Bonuses etc</div>
-                    <Link className="ba" to="/">
+                    <Link className="ba" to="/Sma">
                         <span>View More</span><i class="fa-solid fa-chevron-right"></i>
                     </Link>
                 </section>

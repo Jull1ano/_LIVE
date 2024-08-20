@@ -5,7 +5,7 @@ export function EntItem() {
 
     return (
         <>
-            <Link className="fl" to="/">
+            <Link className="fl" to="/Ent">
                 <picture>
                     <img src={thent} alt="" />
                 </picture>
@@ -14,7 +14,7 @@ export function EntItem() {
                 <div class="ths">Integrated Marketing Effort</div>
                 <section class="infojos">
                     <div class="info">Landing Page for SaaS Cloud Summit</div>
-                    <Link className="ba" to="/">
+                    <Link className="ba" to="/Ent">
                         <span>View More</span><i class="fa-solid fa-chevron-right"></i>
                     </Link>
                 </section>

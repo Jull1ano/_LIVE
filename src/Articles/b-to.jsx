@@ -5,7 +5,7 @@ export function ToItem() {
 
     return (
         <>
-            <Link className="fl" to="/">
+            <Link className="fl" to="/To">
                 <picture>
                     <img src={thto} alt="" />
                 </picture>
@@ -13,7 +13,7 @@ export function ToItem() {
             <section className="padext">                
                 <section class="infojos">
                 <div class="ths">Tools for Training</div>
-                    <Link className="ba" to="/">
+                    <Link className="ba" to="/To">
                         <span>View More</span><i class="fa-solid fa-chevron-right"></i>
                     </Link>
                 </section>

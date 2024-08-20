@@ -5,7 +5,7 @@ export function SinItem() {
 
     return (
         <>
-            <Link className="fl" to="/">
+            <Link className="fl" to="/Sin">
                 <picture>
                     <img src={thsin} alt="" />
                 </picture>
@@ -14,7 +14,7 @@ export function SinItem() {
                 <div class="ths">Integrated Approach for Backup</div>
                 <section class="infojos">
                     <div class="info">SaaS Product Platform Design</div>
-                    <Link className="ba" to="/">
+                    <Link className="ba" to="/Sin">
                         <span>View More</span><i class="fa-solid fa-chevron-right"></i>
                     </Link>
                 </section>

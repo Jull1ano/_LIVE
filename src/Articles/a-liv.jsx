@@ -5,7 +5,7 @@ export function LivItem() {
 
     return (
         <>
-            <Link className="fl" to="/">
+            <Link className="fl" to="/Liv">
                 <picture>
                     <img src={thliv} alt="" />
                 </picture>
@@ -14,7 +14,7 @@ export function LivItem() {
                 <div class="ths">Live Data Conference</div>
                 <section class="infojos">
                     <div class="info">Mini Website for SaaS Conference</div>
-                    <Link className="ba" to="/">
+                    <Link className="ba" to="/Liv">
                         <span>View More</span><i class="fa-solid fa-chevron-right"></i>
                     </Link>
                 </section>

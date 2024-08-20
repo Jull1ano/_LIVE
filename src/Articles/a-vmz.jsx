@@ -5,7 +5,7 @@ export function VmzItem() {
 
     return (
         <>
-            <Link className="fl" to="/">
+            <Link className="fl" to="/Vmz">
                 <picture>
                     <img src={thvmz} alt="" />
                 </picture>
@@ -14,7 +14,7 @@ export function VmzItem() {
                 <div class="ths">Marketing Summit Award</div>
                 <section class="infojos">
                     <div class="info">Mini Website for SaaS Summit</div>
-                    <Link className="ba" to="/">
+                    <Link className="ba" to="/Vmz">
                         <span>View More</span><i class="fa-solid fa-chevron-right"></i>
                     </Link>
                 </section>

@@ -5,7 +5,7 @@ export function AcItem() {
 
     return (
         <>
-            <Link className="fl" to="/">
+            <Link className="fl" to="/Ac">
                 <picture>
                     <img src={thac} alt="" />
                 </picture>
@@ -13,7 +13,7 @@ export function AcItem() {
             <section className="padext">                
                 <section class="infojos">
                 <div class="ths">Achieve Your Potential</div>
-                    <Link className="ba" to="/">
+                    <Link className="ba" to="/Ac">
                         <span>View More</span><i class="fa-solid fa-chevron-right"></i>
                     </Link>
                 </section>

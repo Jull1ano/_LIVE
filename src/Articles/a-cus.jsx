@@ -5,7 +5,7 @@ export function CusItem() {
 
     return (
         <>
-            <Link className="fl" to="/">
+            <Link className="fl" to="/Cus">
                 <picture>
                     <img src={thcus} alt="" />
                 </picture>
@@ -14,7 +14,7 @@ export function CusItem() {
                 <div class="ths">Addressing Customer Needs</div>
                 <section class="infojos">
                     <div class="info">Product Platform, Landing Page, Marketing</div>
-                    <Link className="ba" to="/">
+                    <Link className="ba" to="/Cus">
                         <span>View More</span><i class="fa-solid fa-chevron-right"></i>
                     </Link>
                 </section>

@@ -5,7 +5,7 @@ export function InItem() {
 
     return (
         <>
-            <Link className="fl" to="/">
+            <Link className="fl" to="/In">
                 <picture>
                     <img src={thin} alt="" />
                 </picture>
@@ -13,7 +13,7 @@ export function InItem() {
             <section className="padext">                
                 <section class="infojos">
                 <div class="ths">Investitii Bursiere</div>
-                    <Link className="ba" to="/">
+                    <Link className="ba" to="/In">
                         <span>View More</span><i class="fa-solid fa-chevron-right"></i>
                     </Link>
                 </section>

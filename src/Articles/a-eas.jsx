@@ -5,7 +5,7 @@ export function EasItem() {
 
     return (
         <>
-            <Link className="fl" to="/">
+            <Link className="fl" to="/Eas">
                 <picture>
                     <img src={theas} alt="" />
                 </picture>
@@ -14,7 +14,7 @@ export function EasItem() {
                 <div class="ths">We have you covered</div>
                 <section class="infojos">
                     <div class="info">SaaS Product Page Design</div>
-                    <Link className="ba" to="/">
+                    <Link className="ba" to="/Eas">
                         <span>View More</span><i class="fa-solid fa-chevron-right"></i>
                     </Link>
                 </section>

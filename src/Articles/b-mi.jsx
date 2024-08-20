@@ -5,7 +5,7 @@ export function MiItem() {
 
     return (
         <>
-            <Link className="fl" to="/">
+            <Link className="fl" to="/Mi">
                 <picture>
                     <img src={thmi} alt="" />
                 </picture>
@@ -13,7 +13,7 @@ export function MiItem() {
             <section className="padext">                
                 <section class="infojos">
                 <div class="ths">Mission Possible</div>
-                    <Link className="ba" to="/">
+                    <Link className="ba" to="/Mi">
                         <span>View More</span><i class="fa-solid fa-chevron-right"></i>
                     </Link>
                 </section>

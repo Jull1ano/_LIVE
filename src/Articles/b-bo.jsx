@@ -5,7 +5,7 @@ export function BoItem() {
 
     return (
         <>
-            <Link className="fl" to="/">
+            <Link className="fl" to="/Bo">
                 <picture>
                     <img src={thbo} alt="" />
                 </picture>
@@ -13,7 +13,7 @@ export function BoItem() {
             <section className="padext">                
                 <section class="infojos">
                 <div class="ths">Reinvent Yourself</div>
-                    <Link className="ba" to="/">
+                    <Link className="ba" to="/Bo">
                         <span>View More</span><i class="fa-solid fa-chevron-right"></i>
                     </Link>
                 </section>

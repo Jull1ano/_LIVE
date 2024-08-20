@@ -5,7 +5,7 @@ export function RegItem() {
 
     return (
         <>
-            <Link className="fl" to="/">
+            <Link className="fl" to="/Reg">
                 <picture>
                     <img src={threg} alt="" />
                 </picture>
@@ -14,7 +14,7 @@ export function RegItem() {
                 <div class="ths">UX Register Flow</div>
                 <section class="infojos">
                     <div class="info">Mobile Design of User Flow for Sign-Up Pages, UX Research and User Journey.</div>
-                    <Link className="ba" to="/">
+                    <Link className="ba" to="/Reg">
                         <span>View More</span><i class="fa-solid fa-chevron-right"></i>
                     </Link>
                 </section>

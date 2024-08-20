@@ -5,7 +5,7 @@ export function TechItem() {
 
     return (
         <>
-            <Link className="fl" to="/">
+            <Link className="fl" to="/Tech">
                 <picture>
                     <img src={thtech} alt="" />
                 </picture>
@@ -14,7 +14,7 @@ export function TechItem() {
                 <div class="ths">Tech Summit 2024 - Key Visual</div>
                 <section class="infojos">
                     <div class="info">Landing Page, Newsletter, Social Media Banners, Design System, 3D Booth Design</div>
-                    <Link className="ba" to="/">
+                    <Link className="ba" to="/Tech">
                         <span>View More</span><i class="fa-solid fa-chevron-right"></i>
                     </Link>
                 </section>

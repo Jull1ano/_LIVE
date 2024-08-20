@@ -5,7 +5,7 @@ export function AmItem() {
 
     return (
         <>
-            <Link className="fl" to="/">
+            <Link className="fl" to="/Am">
                 <picture>
                     <img src={tham} alt="" />
                 </picture>
@@ -13,7 +13,7 @@ export function AmItem() {
             <section className="padext">                
                 <section class="infojos">
                 <div class="ths">Amazing Support</div>
-                    <Link className="ba" to="/">
+                    <Link className="ba" to="/Am">
                         <span>View More</span><i class="fa-solid fa-chevron-right"></i>
                     </Link>
                 </section>

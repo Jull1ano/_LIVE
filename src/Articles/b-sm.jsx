@@ -5,7 +5,7 @@ export function SmItem() {
 
     return (
         <>
-            <Link className="fl" to="/">
+            <Link className="fl" to="/Sm">
                 <picture>
                     <img src={thsm} alt="" />
                 </picture>
@@ -13,7 +13,7 @@ export function SmItem() {
             <section className="padext">                
                 <section class="infojos">
                 <div class="ths">Smart Investors</div>
-                    <Link className="ba" to="/">
+                    <Link className="ba" to="/Sm">
                         <span>View More</span><i class="fa-solid fa-chevron-right"></i>
                     </Link>
                 </section>

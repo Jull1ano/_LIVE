@@ -1,19 +1,19 @@
 import { Link } from "react-router-dom";
-import thma from '/th/th-01.jpg'
+import thbo from '/th/so3.jpg'
 
-export function MaItem() {
+export function BoItem() {
 
     return (
         <>
-            <Link className="fl" to="/Ma">
+            <Link className="fl" to="/Bot">
                 <picture>
-                    <img src={thma} alt="" />
+                    <img src={thbo} alt="" />
                 </picture>
             </Link>
             <section className="padext">                
                 <section class="infojos">
-                <div class="ths">Tech Summit 2024</div>
-                    <Link className="ba" to="/Ma">
+                <div class="ths">Booth Design</div>
+                    <Link className="ba" to="/Bot">
                         <span>View More</span><i class="fa-solid fa-chevron-right"></i>
                     </Link>
                 </section>
@@ -22,10 +22,10 @@ export function MaItem() {
     )
 }
 
-export function Ma() {
+export function Bot() {
     return (
         <>
-            <h1>ma</h1>
+            <h1>bot</h1>
         </>
     )
 }

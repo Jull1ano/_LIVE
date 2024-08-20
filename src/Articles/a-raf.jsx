@@ -5,7 +5,7 @@ export function RafItem() {
 
     return (
         <>
-            <Link className="fl" to="/">
+            <Link className="fl" to="/Raf">
                 <picture>
                     <img src={thraf} alt="" />
                 </picture>
@@ -14,7 +14,7 @@ export function RafItem() {
                 <div class="ths">RAF - User Flow</div>
                 <section class="infojos">
                     <div class="info">Mobile Design of User Flow for Refer a Friend Campaign, UX Research and User Journey.</div>
-                    <Link className="ba" to="/">
+                    <Link className="ba" to="/Raf">
                         <span>View More</span><i class="fa-solid fa-chevron-right"></i>
                     </Link>
                 </section>

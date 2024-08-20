@@ -5,7 +5,7 @@ export function OwItem() {
 
     return (
         <>
-            <Link className="fl" to="/">
+            <Link className="fl" to="/Ow">
                 <picture>
                     <img src={thow} alt="" />
                 </picture>
@@ -13,7 +13,7 @@ export function OwItem() {
             <section className="padext">                
                 <section class="infojos">
                 <div class="ths">Own your Data</div>
-                    <Link className="ba" to="/">
+                    <Link className="ba" to="/Ow">
                         <span>View More</span><i class="fa-solid fa-chevron-right"></i>
                     </Link>
                 </section>

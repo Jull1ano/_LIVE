@@ -5,7 +5,7 @@ export function CuItem() {
 
     return (
         <>
-            <Link className="fl" to="/">
+            <Link className="fl" to="/Cu">
                 <picture>
                     <img src={thcu} alt="" />
                 </picture>
@@ -13,7 +13,7 @@ export function CuItem() {
             <section className="padext">                
                 <section class="infojos">
                 <div class="ths">Customers Choice</div>
-                    <Link className="ba" to="/">
+                    <Link className="ba" to="/Cu">
                         <span>View More</span><i class="fa-solid fa-chevron-right"></i>
                     </Link>
                 </section>

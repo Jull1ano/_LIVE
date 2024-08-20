@@ -5,7 +5,7 @@ export function TeItem() {
 
     return (
         <>
-            <Link className="fl" to="/">
+            <Link className="fl" to="/Te">
                 <picture>
                     <img src={thte} alt="" />
                 </picture>
@@ -13,7 +13,7 @@ export function TeItem() {
             <section className="padext">                
                 <section class="infojos">
                 <div class="ths">Technical Support</div>
-                    <Link className="ba" to="/">
+                    <Link className="ba" to="/Te">
                         <span>View More</span><i class="fa-solid fa-chevron-right"></i>
                     </Link>
                 </section>

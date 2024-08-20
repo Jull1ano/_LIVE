@@ -5,7 +5,7 @@ export function VdpItem() {
 
     return (
         <>
-            <Link className="fl" to="/">
+            <Link className="fl" to="/Vdp">
                 <picture>
                     <img src={thvdp} alt="" />
                 </picture>
@@ -14,7 +14,7 @@ export function VdpItem() {
                 <div class="ths">Product Data Platform</div>
                 <section class="infojos">
                     <div class="info">Product Landing Page and UI/UX Design</div>
-                    <Link className="ba" to="/">
+                    <Link className="ba" to="/Vdp">
                         <span>View More</span><i class="fa-solid fa-chevron-right"></i>
                     </Link>
                 </section>

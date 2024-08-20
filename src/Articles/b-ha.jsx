@@ -5,7 +5,7 @@ export function HaItem() {
 
     return (
         <>
-            <Link className="fl" to="/">
+            <Link className="fl" to="/Ha">
                 <picture>
                     <img src={thha} alt="" />
                 </picture>
@@ -13,7 +13,7 @@ export function HaItem() {
             <section className="padext">                
                 <section class="infojos">
                 <div class="ths">Happy Holidays</div>
-                    <Link className="ba" to="/">
+                    <Link className="ba" to="/Ha">
                         <span>View More</span><i class="fa-solid fa-chevron-right"></i>
                     </Link>
                 </section>

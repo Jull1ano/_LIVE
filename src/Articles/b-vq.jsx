@@ -5,7 +5,7 @@ export function VqItem() {
 
     return (
         <>
-            <Link className="fl" to="/">
+            <Link className="fl" to="/Vq">
                 <picture>
                     <img src={thvq} alt="" />
                 </picture>
@@ -13,7 +13,7 @@ export function VqItem() {
             <section className="padext">                
                 <section class="infojos">
                 <div class="ths">VQ Istanbul</div>
-                    <Link className="ba" to="/">
+                    <Link className="ba" to="/Vq">
                         <span>View More</span><i class="fa-solid fa-chevron-right"></i>
                     </Link>
                 </section>

@@ -5,7 +5,7 @@ export function VoItem() {
 
     return (
         <>
-            <Link className="fl" to="/">
+            <Link className="fl" to="/Vo">
                 <picture>
                     <img src={thvo} alt="" />
                 </picture>
@@ -13,7 +13,7 @@ export function VoItem() {
             <section className="padext">                
                 <section class="infojos">
                 <div class="ths">Digital Transformation</div>
-                    <Link className="ba" to="/">
+                    <Link className="ba" to="/Vo">
                         <span>View More</span><i class="fa-solid fa-chevron-right"></i>
                     </Link>
                 </section>

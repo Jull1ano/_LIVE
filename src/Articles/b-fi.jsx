@@ -5,7 +5,7 @@ export function FiItem() {
 
     return (
         <>
-            <Link className="fl" to="/">
+            <Link className="fl" to="/Fi">
                 <picture>
                     <img src={thfi} alt="" />
                 </picture>
@@ -13,7 +13,7 @@ export function FiItem() {
             <section className="padext">                
                 <section class="infojos">
                 <div class="ths">Fierce creativity</div>
-                    <Link className="ba" to="/">
+                    <Link className="ba" to="/Fi">
                         <span>View More</span><i class="fa-solid fa-chevron-right"></i>
                     </Link>
                 </section>
