@@ -1,11 +1,11 @@
-import './style.css'
-import { HashRouter, Routes, Route } from 'react-router-dom'
+import './style.css';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import { Home } from './Pages/Home'
 import { UIUX } from './Pages/UIUX'
 import { Graphic } from './Pages/Graphic'
 import { Motion } from './Pages/Motion'
 import { Render } from './Pages/Render'
-import { Layout } from './Layout'
+import ScrollToTop, { Layout } from './Layout'
 import { LayoutArt } from './LayoutArt'
 import { Feb } from './Articles/a-feb'
 import { Sma } from './Articles/a-sma'
@@ -59,22 +59,25 @@ import { Do } from './Articles/c-do'
 import { En } from './Articles/c-en'
 import { Wi } from './Articles/c-wi'
 import { LayoutHuge } from './LayoutHuge'
+import { BrowserRouter } from 'react-router-dom';
+import React from 'react';
+
 
 function App() {
 
 
   return (
-    <HashRouter>
+    <BrowserRouter>
+      <ScrollToTop />
       <Routes>
         <Route element={<Layout />}>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Home />}/>
           <Route path="/UIUX" element={<UIUX />} />
           <Route path="/Graphic" element={<Graphic />} />
           <Route path="/Motion" element={<Motion />} />
           <Route path="/Render" element={<Render />} />
         </Route>
         <Route element={<LayoutArt />}>
-
           <Route path="/Feb" element={<Feb />} />
           <Route path="/Sma" element={<Sma />} />
           <Route path="/Lion" element={<Lion />} />
@@ -94,7 +97,6 @@ function App() {
           <Route path="/Adr" element={<Adr />} />
           <Route path="/Vmz" element={<Vmz />} />
           <Route path="/Eas" element={<Eas />} />
-
           <Route path="/Te" element={<Te />} />
           <Route path="/Ma" element={<Ma />} />
           <Route path="/Pu" element={<Pu />} />
@@ -112,16 +114,14 @@ function App() {
           <Route path="/To" element={<To />} />
           <Route path="/Sm" element={<Sm />} />
           <Route path="/Me" element={<Me />} />
-          <Route path="/Ha" element={<Ha />} />       
-
+          <Route path="/Ha" element={<Ha />} />
         </Route>
-
         <Route element={<LayoutHuge />}>
           <Route path="/Tech" element={<Tech />} />
           <Route path="/Op" element={<Op />} />
           <Route path="/Sc" element={<Sc />} />
           <Route path="/Mo" element={<Mo />} />
-          <Route path="/Gr" element={<Gr />} />         
+          <Route path="/Gr" element={<Gr />} />
           <Route path="/Ro" element={<Ro />} />
           <Route path="/Ki" element={<Ki />} />
           <Route path="/Ing" element={<Ing />} />
@@ -133,8 +133,8 @@ function App() {
           <Route path="/Wi" element={<Wi />} />
         </Route>
       </Routes>
-    </HashRouter>
+    </BrowserRouter>
   )
 }
 
-export default App
+export default App;

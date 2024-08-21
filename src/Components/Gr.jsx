@@ -19,12 +19,17 @@ import { ViItem } from "../Articles/b-vi";
 import { VoItem } from "../Articles/b-vo";
 import { VqItem } from "../Articles/b-vq";
 
+import { v4 as uuidv4 } from 'uuid';
+
 
 export function Gr() {
+    
+    const uniqueId = uuidv4();
+    
     return (
         <>
             <section className="sgr">
-                <h1>Graphic Design</h1>
+                <h1 id={uniqueId}>Graphic Design</h1>
                 <h2>Examples of Graphic Design Projects Created for Comprehensive Digital Marketing Campaigns</h2>
                 <ul className="grid">
                     <li className="item"><TeItem /></li>
