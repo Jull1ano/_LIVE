@@ -10,9 +10,9 @@ export function RoItem() {
                     <img src={thro} alt="" />
                 </picture>
             </Link>
-            <section className="padext">                
+            <section className="padext">
                 <section class="infojos">
-                <div class="ths">Room of May</div>
+                    <div class="ths">Room of May</div>
                     <Link className="ba" to="/Ro">
                         <span>View More</span><i class="fa-solid fa-chevron-right"></i>
                     </Link>
@@ -25,7 +25,23 @@ export function RoItem() {
 export function Ro() {
     return (
         <>
-            <h1>ro</h1>
+
+            <div class="item2-gap">
+
+                <div class="item2">
+                    <h1>Moody Room</h1>
+                    <h2>Architecture Visualization</h2>
+
+                    <div class="mb">
+                        <img src="/3d/may-03.jpg" alt="" loading="lazy" width="1117" />
+                        <img src="/3d/may-02.jpg" alt="" loading="lazy" width="1117" />
+                        <img src="/3d/ime-03.jpg" alt="" loading="lazy" width="800" />
+                    </div>
+
+                </div>
+
+
+            </div>
         </>
     )
 }

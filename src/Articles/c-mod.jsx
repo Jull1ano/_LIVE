@@ -10,9 +10,9 @@ export function ModItem() {
                     <img src={thmod} alt="" />
                 </picture>
             </Link>
-            <section className="padext">                
+            <section className="padext">
                 <section class="infojos">
-                <div class="ths">Modern Apartment</div>
+                    <div class="ths">Modern Apartment</div>
                     <Link className="ba" to="/Mod">
                         <span>View More</span><i class="fa-solid fa-chevron-right"></i>
                     </Link>
@@ -25,7 +25,25 @@ export function ModItem() {
 export function Mod() {
     return (
         <>
-            <h1>mod</h1>
+
+            <div class="item2-gap">
+
+                <div class="item2">
+                    <h1>Modern apartment</h1>
+                    <h2>Architecture Visualization</h2>
+
+                    <div class="mb">
+                        <img src="/3d/rm-03.jpg" alt="" loading="lazy" width="1117" />
+                        <img src="/3d/rm-02.jpg" alt="" loading="lazy" width="1117" />
+                        <img src="/3d/rm-01.jpg" alt="" loading="lazy" width="1117" />
+                        <img src="/3d/ime-01.jpg" alt="" loading="lazy" width="800" />
+                    </div>
+
+                </div>
+
+
+
+            </div>
         </>
     )
 }

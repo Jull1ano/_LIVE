@@ -10,9 +10,9 @@ export function AmItem() {
                     <img src={tham} alt="" />
                 </picture>
             </Link>
-            <section className="padext">                
+            <section className="padext">
                 <section class="infojos">
-                <div class="ths">Amazing Support</div>
+                    <div class="ths">Amazing Support</div>
                     <Link className="ba" to="/Am">
                         <span>View More</span><i class="fa-solid fa-chevron-right"></i>
                     </Link>
@@ -25,7 +25,24 @@ export function AmItem() {
 export function Am() {
     return (
         <>
-            <h1>am</h1>
+
+            <div class="item2-gap">
+
+                <div class="item2">
+                    <h1>Amazing Support</h1>
+                    <h2>Banners - Digital Marketing</h2>
+
+                    <div class="mb">
+
+                        <img src="/lnh-02.jpg" alt="" loading="lazy" width="800" />
+                        <img src="/lnh-04.jpg" alt="" loading="lazy" width="800" />
+                        <img src="/lnh-07.jpg" alt="" loading="lazy" width="800" />
+
+
+                    </div>
+                </div>
+
+            </div>
         </>
     )
 }

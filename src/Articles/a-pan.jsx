@@ -26,15 +26,10 @@ export function PanItem() {
 export function Pan() {
     return (
         <>
-           
-
             <div class="item2-gap">
-
                 <div class="item2">
                     <h1>Data Resiliency Pillars</h1>
                     <h2>Product Page - Backup for Microsoft 365</h2>
-
-
                     <div class="ziar">
                         <p><span class="tit">Problem Statement</span>Consumers and professionals seeking expert insights in cloud data management often lack access to authoritative and trustworthy resources that highlight critical industry topics, such as comprehensive backup solutions.
                         </p>
@@ -53,15 +48,10 @@ export function Pan() {
                             </p>
                         </div>
                     </div>
-
-
                     <picture>
                         <img src="/m36.jpg" alt="" loading="lazy" width="1117" />
                     </picture>
                 </div>
-
-
-
             </div>
         </>
     )

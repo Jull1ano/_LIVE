@@ -25,7 +25,32 @@ export function ViItem() {
 export function Vi() {
     return (
         <>
-            <h1>vi</h1>
+         
+
+<div class="item2-gap">
+
+
+    <div class="item2">
+        <h1>Data Foundations</h1>
+        <h2>Poster design</h2>
+
+        <div class="mb">
+            <img src="/violet.jpg" alt="" loading="lazy" width="1117"/>                        
+            
+        </div>
+    </div>
+
+    <div class="item2 suta">
+        <h2>Wide Banner Design</h2>
+
+        <div class="mb">
+            
+        <img src="/violet-wide.jpg" alt="" loading="lazy" width="1117"/>
+            
+        </div>
+    </div>
+
+</div>
         </>
     )
 }

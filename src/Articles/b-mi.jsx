@@ -25,7 +25,23 @@ export function MiItem() {
 export function Mi() {
     return (
         <>
-            <h1>mi</h1>
+            
+
+<div class="item2-gap">
+
+
+    <div class="item2">
+        <h1>Mission Possible</h1>
+        <h2>Poster design</h2>
+
+        <div class="mb">
+            <img src="/poster_fucsia-1.jpg" alt="" loading="lazy" width="700"/>
+            <img src="/poster_blue-1.jpg" alt="" loading="lazy" width="700"/>
+
+        </div>
+    </div>
+
+</div>
         </>
     )
 }

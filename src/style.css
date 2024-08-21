@@ -327,7 +327,7 @@ a.back i {
 }
 
 .forceback {
-	width: clamp(300px, 100%, 1117px);
+	width: clamp(300px, 1117px, 100%);
 
 	margin: 7px 4%;
 	display: flex;
@@ -346,7 +346,7 @@ a.back i {
 	margin-top: 60px;
 }
 .article {
-	width: clamp(300px, 100%, 1117px);
+	width: clamp(300px, 1117px, 100%);
 	display: flex;
 	flex-direction: column;
 }
@@ -623,6 +623,9 @@ a.ba i {
 	gap: 6vw;
 	align-items: center;
 }
+.item2 img {
+	max-width: 100%;
+}
 .item2-gap {
 	display: flex;
 	flex-direction: row;
@@ -633,9 +636,9 @@ a.ba i {
 	max-width: 100%;
 }
 
-.item2-gap:last-child {
+/* .item2-gap:last-child {
 	margin-top: 70px;
-}
+} */
 
 .vds {
 	display: flex;
@@ -663,14 +666,33 @@ a.ba i {
 	align-items: flex-end;
 	gap: 50px;
 }
+
+.clamp {
+	width: clamp(300px, 1117px, 100%);
+	margin-bottom: 80px;
+}
+.con {
+	display: flex;
+	flex-direction: column;
+	/* max-width: 100%; */
+	align-items: center;
+	margin-left: 4%;
+	margin-right: 4%;
+	width: clamp(300px, 1360px, 100%);
+}
+
 .huge {
 	display: flex;
 	width: 1360px;
 	margin: auto 2%;
 	flex-direction: column;
-    align-items: center;
-    max-width: 100%;
+	align-items: center;
+	max-width: 100%;
 	margin-top: 70px;
+}
+.sha {
+	box-shadow: none !important;
+    border-radius: 0 !important;
 }
 
 @media (max-width: 1100px) {
@@ -810,6 +832,9 @@ a.ba i {
 	.mb {
 		gap: 30px;
 	}
+	.clamp {
+		margin-bottom: 60px;
+	}
 }
 
 @media (max-width: 570px) {
@@ -869,4 +894,9 @@ a.ba i {
 	.mb {
 		gap: 30px;
 	}
+	.clamp {
+		
+		margin-bottom: 40px;
+	}
+
 }

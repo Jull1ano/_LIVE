@@ -10,9 +10,9 @@ export function OpItem() {
                     <img src={thop} alt="" />
                 </picture>
             </Link>
-            <section className="padext">                
+            <section className="padext">
                 <section class="infojos">
-                <div class="ths">Open-Plan Kitchen</div>
+                    <div class="ths">Open-Plan Kitchen</div>
                     <Link className="ba" to="/Op">
                         <span>View More</span><i class="fa-solid fa-chevron-right"></i>
                     </Link>
@@ -25,7 +25,25 @@ export function OpItem() {
 export function Op() {
     return (
         <>
-            <h1>op</h1>
+
+            <div class="item2-gap">
+
+                <div class="item2">
+                    <h1>Open-Plan Kitchen</h1>
+                    <h2>Architecture Visualization</h2>
+
+                    <div class="mb">
+                        <img src="/3d/test-18.jpg" alt="" loading="lazy" />
+                        <img src="/3d/test-22.jpg" alt="" loading="lazy" />
+                        <img src="/3d/test-25.jpg" alt="" loading="lazy" />
+                        <img src="/3d/test-26.jpg" alt="" loading="lazy" />
+                        <img src="/3d/test-29.jpg" alt="" loading="lazy" />
+                    </div>
+
+                </div>
+
+            </div>
+
         </>
     )
 }

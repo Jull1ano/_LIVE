@@ -10,9 +10,9 @@ export function VqItem() {
                     <img src={thvq} alt="" />
                 </picture>
             </Link>
-            <section className="padext">                
+            <section className="padext">
                 <section class="infojos">
-                <div class="ths">VQ Istanbul</div>
+                    <div class="ths">VQ Istanbul</div>
                     <Link className="ba" to="/Vq">
                         <span>View More</span><i class="fa-solid fa-chevron-right"></i>
                     </Link>
@@ -25,7 +25,25 @@ export function VqItem() {
 export function Vq() {
     return (
         <>
-            <h1>vq</h1>
+
+            <div class="item2-gap">
+
+                <div class="item2">
+                    <h1>VQ Istanbul</h1>
+                    <h2>Banners - Digital Marketing</h2>
+
+                    <div class="mb">
+
+                        <img src="/th/tk.jpg" alt="" loading="lazy" width="600" />
+                        <img src="/1920x500-02.jpg" alt="" loading="lazy" width="600" />
+                        <img src="/vgs-bnr.png" alt="" loading="lazy" width="600" />
+                        <img src="/1920x500-01.jpg" alt="" loading="lazy" width="600" />
+                        <img src="/1920x500-03.jpg" alt="" loading="lazy" width="600" />
+
+                    </div>
+                </div>
+
+            </div>
         </>
     )
 }

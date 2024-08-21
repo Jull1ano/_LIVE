@@ -10,9 +10,9 @@ export function FiItem() {
                     <img src={thfi} alt="" />
                 </picture>
             </Link>
-            <section className="padext">                
+            <section className="padext">
                 <section class="infojos">
-                <div class="ths">Fierce creativity</div>
+                    <div class="ths">Fierce creativity</div>
                     <Link className="ba" to="/Fi">
                         <span>View More</span><i class="fa-solid fa-chevron-right"></i>
                     </Link>
@@ -25,7 +25,23 @@ export function FiItem() {
 export function Fi() {
     return (
         <>
-            <h1>fi</h1>
+
+            <div class="item2-gap">
+
+                <div class="item2">
+                    <h1>Fierce creativity</h1>
+                    <h2>Flyer design</h2>
+
+                    <div class="mb">
+
+                        <img src="/wolf-flyer.jpg" alt="" loading="lazy" width="800" />
+                        <img src="/wolf-poster.jpg" alt="" loading="lazy" width="800" />
+
+
+                    </div>
+                </div>
+
+            </div>
         </>
     )
 }

@@ -10,9 +10,9 @@ export function TeItem() {
                     <img src={thte} alt="" />
                 </picture>
             </Link>
-            <section className="padext">                
+            <section className="padext">
                 <section class="infojos">
-                <div class="ths">Technical Support</div>
+                    <div class="ths">Technical Support</div>
                     <Link className="ba" to="/Te">
                         <span>View More</span><i class="fa-solid fa-chevron-right"></i>
                     </Link>
@@ -25,7 +25,24 @@ export function TeItem() {
 export function Te() {
     return (
         <>
-            <h1>te</h1>
+
+            <div class="item2-gap">
+
+                <div class="item2">
+                    <h1>Amazing Support</h1>
+                    <h2>Banners - Digital Marketing</h2>
+
+                    <div class="mb">
+
+                        <img src="/lnh-03.jpg" alt="" loading="lazy" width="800" />
+                        <img src="/lnh-05.jpg" alt="" loading="lazy" width="800" />
+                        <img src="/lnh-01.jpg" alt="" loading="lazy" width="800" />
+                        <img src="/lnh-06.jpg" alt="" loading="lazy" width="800" />
+
+                    </div>
+                </div>
+
+            </div>
         </>
     )
 }

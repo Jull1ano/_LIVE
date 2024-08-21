@@ -10,9 +10,9 @@ export function OwItem() {
                     <img src={thow} alt="" />
                 </picture>
             </Link>
-            <section className="padext">                
+            <section className="padext">
                 <section class="infojos">
-                <div class="ths">Own your Data</div>
+                    <div class="ths">Own your Data</div>
                     <Link className="ba" to="/Ow">
                         <span>View More</span><i class="fa-solid fa-chevron-right"></i>
                     </Link>
@@ -25,7 +25,23 @@ export function OwItem() {
 export function Ow() {
     return (
         <>
-            <h1>ow</h1>
+
+            <div class="item2-gap">
+
+                <div class="item2">
+                    <h1>Own your Data</h1>
+                    <h2>Banners - Digital Marketing</h2>
+
+                    <div class="mb">
+
+                        <img src="/g1.jpg" alt="" loading="lazy" width="800" />
+                        <img src="/some1.png" alt="" loading="lazy" width="800" />
+                        <img src="/g2.jpg" alt="" loading="lazy" width="800" />
+
+                    </div>
+                </div>
+
+            </div>
         </>
     )
 }

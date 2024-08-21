@@ -10,9 +10,9 @@ export function HaItem() {
                     <img src={thha} alt="" />
                 </picture>
             </Link>
-            <section className="padext">                
+            <section className="padext">
                 <section class="infojos">
-                <div class="ths">Happy Holidays</div>
+                    <div class="ths">Happy Holidays</div>
                     <Link className="ba" to="/Ha">
                         <span>View More</span><i class="fa-solid fa-chevron-right"></i>
                     </Link>
@@ -25,7 +25,22 @@ export function HaItem() {
 export function Ha() {
     return (
         <>
-            <h1>ha</h1>
+
+            <div class="item2-gap">
+
+                <div class="item2">
+                    <h1>Happy Holidays</h1>
+                    <h2>Postcard design</h2>
+                    <div class="mb">
+                        <img src="/felicitare1.jpg" alt="" loading="lazy" width="533" />
+                        <img src="/felicitare.jpg" alt="" loading="lazy" width="533" />
+                        <img src="/mn.jpg" alt="" loading="lazy" width="533" />
+
+
+                    </div>
+                </div>
+
+            </div>
         </>
     )
 }

@@ -26,7 +26,32 @@ export function CubItem() {
 export function Cub() {
     return (
         <>
-            <h1>cub</h1>
+
+            <div class="item2-gap">
+
+                <div class="item2">
+                    <h1>Data Management Solution</h1>
+                    <h2>SaaS Product Page Design</h2>
+
+
+                    <div class="ziar">
+                        <p><span class="tit">Problem Statement</span>Businesses seeking to enhance their data backup and replication capabilities need reliable solutions that not only secure data but also boost sales and revenue.</p>
+                        <div class="maxc">
+                            <p><span class="tit">Solution</span>Develop a SaaS Product page for our backup and replication company's ProPartner program, which explains how our services can help businesses accelerate their operations, increase sales, and earn more.</p>
+                        </div>
+                        <div class="maxc">
+                            <p><span class="tit">Result</span>The landing page successfully attracts businesses by clearly showcasing the benefits of our ProPartner program, resulting in increased sign-ups and enhanced partner engagement, driving both higher sales and revenues for participants.</p>
+                        </div>
+                    </div>
+
+
+                    <picture>
+                        <img src="/acc.jpg" alt="" loading="lazy" width="1117" />
+                    </picture>
+                </div>
+
+
+            </div>
         </>
     )
 }

@@ -58,6 +58,7 @@ import { Co } from './Articles/c-co'
 import { Do } from './Articles/c-do'
 import { En } from './Articles/c-en'
 import { Wi } from './Articles/c-wi'
+import { LayoutHuge } from './LayoutHuge'
 
 function App() {
 
@@ -72,62 +73,64 @@ function App() {
           <Route path="/Motion" element={<Motion />} />
           <Route path="/Render" element={<Render />} />
         </Route>
-        <Route element={<LayoutArt/>}>
+        <Route element={<LayoutArt />}>
 
-          <Route path="/Feb" element={<Feb/>}/>
-          <Route path="/Sma" element={<Sma/>}/>
-          <Route path="/Lion" element={<Lion/>}/>
-          <Route path="/Raf" element={<Raf/>}/>
-          <Route path="/Vds" element={<Vds/>}/>
-          <Route path="/Reg" element={<Reg/>}/>
-          <Route path="/Pan" element={<Pan/>}/>
-          <Route path="/Tech" element={<Tech/>}/>
-          <Route path="/Vdp" element={<Vdp/>}/>
-          <Route path="/Cus" element={<Cus/>}/>
-          <Route path="/Env" element={<Env/>}/>
-          <Route path="/Sin" element={<Sin/>}/>
-          <Route path="/Rec" element={<Rec/>}/>
-          <Route path="/Cub" element={<Cub/>}/>
-          <Route path="/Liv" element={<Liv/>}/>
-          <Route path="/Ent" element={<Ent/>}/>
-          <Route path="/Net" element={<Net/>}/>
-          <Route path="/Adr" element={<Adr/>}/>
-          <Route path="/Vmz" element={<Vmz/>}/>
-          <Route path="/Eas" element={<Eas/>}/>
+          <Route path="/Feb" element={<Feb />} />
+          <Route path="/Sma" element={<Sma />} />
+          <Route path="/Lion" element={<Lion />} />
+          <Route path="/Raf" element={<Raf />} />
+          <Route path="/Vds" element={<Vds />} />
+          <Route path="/Reg" element={<Reg />} />
+          <Route path="/Pan" element={<Pan />} />
+          <Route path="/Vdp" element={<Vdp />} />
+          <Route path="/Cus" element={<Cus />} />
+          <Route path="/Env" element={<Env />} />
+          <Route path="/Sin" element={<Sin />} />
+          <Route path="/Rec" element={<Rec />} />
+          <Route path="/Cub" element={<Cub />} />
+          <Route path="/Liv" element={<Liv />} />
+          <Route path="/Ent" element={<Ent />} />
+          <Route path="/Net" element={<Net />} />
+          <Route path="/Adr" element={<Adr />} />
+          <Route path="/Vmz" element={<Vmz />} />
+          <Route path="/Eas" element={<Eas />} />
 
-          <Route path="/Te" element={<Te/>}/>
-          <Route path="/Ma" element={<Ma/>}/>
-          <Route path="/Pu" element={<Pu/>}/>
-          <Route path="/Vq" element={<Vq/>}/>
-          <Route path="/Am" element={<Am/>}/>
-          <Route path="/Vi" element={<Vi/>}/>
-          <Route path="/Ow" element={<Ow/>}/>
-          <Route path="/Bo" element={<Bo/>}/>
-          <Route path="/Cu" element={<Cu/>}/>
-          <Route path="/In" element={<In/>}/>
-          <Route path="/Vo" element={<Vo/>}/>
-          <Route path="/Ac" element={<Ac/>}/>
-          <Route path="/Fi" element={<Fi/>}/>
-          <Route path="/Mi" element={<Mi/>}/>
-          <Route path="/To" element={<To/>}/>
-          <Route path="/Sm" element={<Sm/>}/>
-          <Route path="/Me" element={<Me/>}/>
-          <Route path="/Ha" element={<Ha/>}/>
+          <Route path="/Te" element={<Te />} />
+          <Route path="/Ma" element={<Ma />} />
+          <Route path="/Pu" element={<Pu />} />
+          <Route path="/Vq" element={<Vq />} />
+          <Route path="/Am" element={<Am />} />
+          <Route path="/Vi" element={<Vi />} />
+          <Route path="/Ow" element={<Ow />} />
+          <Route path="/Bo" element={<Bo />} />
+          <Route path="/Cu" element={<Cu />} />
+          <Route path="/In" element={<In />} />
+          <Route path="/Vo" element={<Vo />} />
+          <Route path="/Ac" element={<Ac />} />
+          <Route path="/Fi" element={<Fi />} />
+          <Route path="/Mi" element={<Mi />} />
+          <Route path="/To" element={<To />} />
+          <Route path="/Sm" element={<Sm />} />
+          <Route path="/Me" element={<Me />} />
+          <Route path="/Ha" element={<Ha />} />       
 
-          <Route path="/Op" element={<Op/>}/>
-          <Route path="/Mo" element={<Mo/>}/>
-          <Route path="/Gr" element={<Gr/>}/>
-          <Route path="/Sc" element={<Sc/>}/>
-          <Route path="/Ro" element={<Ro/>}/>
-          <Route path="/Ki" element={<Ki/>}/>
-          <Route path="/Ing" element={<Ing/>}/>
-          <Route path="/Bot" element={<Bot/>}/>
-          <Route path="/Mod" element={<Mod/>}/>
-          <Route path="/Co" element={<Co/>}/>
-          <Route path="/Do" element={<Do/>}/>
-          <Route path="/En" element={<En/>}/>
-          <Route path="/Wi" element={<Wi/>}/>
+        </Route>
 
+        <Route element={<LayoutHuge />}>
+          <Route path="/Tech" element={<Tech />} />
+          <Route path="/Op" element={<Op />} />
+          <Route path="/Sc" element={<Sc />} />
+          <Route path="/Mo" element={<Mo />} />
+          <Route path="/Gr" element={<Gr />} />         
+          <Route path="/Ro" element={<Ro />} />
+          <Route path="/Ki" element={<Ki />} />
+          <Route path="/Ing" element={<Ing />} />
+          <Route path="/Bot" element={<Bot />} />
+          <Route path="/Mod" element={<Mod />} />
+          <Route path="/Co" element={<Co />} />
+          <Route path="/Do" element={<Do />} />
+          <Route path="/En" element={<En />} />
+          <Route path="/Wi" element={<Wi />} />
         </Route>
       </Routes>
     </HashRouter>
