@@ -61,6 +61,8 @@ import { Wi } from './Articles/c-wi'
 import { LayoutHuge } from './LayoutHuge'
 import { BrowserRouter } from 'react-router-dom';
 import React from 'react';
+import { About } from './Components/About';
+import { LayoutAbout } from './LayoutAbout';
 
 
 function App() {
@@ -76,6 +78,9 @@ function App() {
           <Route path="/Graphic" element={<Graphic />} />
           <Route path="/Motion" element={<Motion />} />
           <Route path="/Render" element={<Render />} />
+        </Route>
+        <Route element={<LayoutAbout />}>
+          <Route path="/About" element={<About />} />
         </Route>
         <Route element={<LayoutArt />}>
           <Route path="/Feb" element={<Feb />} />
