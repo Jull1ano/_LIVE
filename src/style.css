@@ -384,14 +384,19 @@ h2 {
 
 .article h1,
 .article-2 h1 {
-	margin: 12px 0 34px;
+	margin: 12px 0 24px;
 	font-size: 48px;
 	line-height: 50px;
 }
 
-.article h2,
-.article-2 h2 {
+.article h2{
 	margin-bottom: 36px;
+	font-size: 26px;
+	line-height: 30px;
+}
+
+.article-2 h2 {
+	margin-bottom: 50px;
 	font-size: 26px;
 	line-height: 30px;
 }
@@ -743,6 +748,10 @@ a.ba i {
 }
 .lastt { display: flex; padding-top: 16px;}
 
+.homec .nav li a.a1, .uiuxc .nav li a.a2, .graphic .nav li a.a3, .motionc .nav li a.a4, .renderc .nav li a.a5, .aboutc .nav li a.a6 {
+	color: #e83890;
+}
+
 @media (max-width: 1100px) {
 	a.back {
 		font-size: 15px;
@@ -780,13 +789,14 @@ a.ba i {
 		display: flex;
 		min-width: 300px;
 		width: 100%;
-		background-color: rgba(242, 242, 242, 0.85);
+		background-color: rgba(245, 245, 245, 0.85);
 		backdrop-filter: blur(10px);
 		padding: 9px 4%;
 		justify-content: center;
 		position: fixed;
 		left: 0;
 		z-index: 1;
+		box-shadow: 4px 8px 15px 0 rgba(0, 0, 0, 0.03), 1px 1px 6px 0px rgba(0, 0, 0, 0.1);
 	}
 	.nav ul li a {
 		font-size: 13px;
@@ -821,7 +831,7 @@ a.ba i {
 		width: 85%;
 	}
 	.header a.logo {
-		margin-top: 45px;
+		margin-top: 60px;
 	}
 
 	h1 {
@@ -850,7 +860,7 @@ a.ba i {
 
 	.article-2 h1 {
 		font-size: 40px;
-		margin: 0px 0 24px;
+		margin: 0px 0 16px;
 	}
 
 	.article h2,
@@ -903,7 +913,7 @@ a.ba i {
 
 	.allst {
 		gap: 40px;
-		padding-top: 20px;
+		padding-top: 16px;
 	}
 
 	.statement {
@@ -961,14 +971,14 @@ a.ba i {
 	}
 	.article-2 h1 {
 		font-size: 37px;
-		margin: 0px 0 18px;
+		margin: 0px 0 10px;
 		line-height: 50px;
 	}
 
 	.article h2,
 	.article-2 h2 {
 		font-size: 20px;
-		margin-bottom: 14px;
+		margin-bottom: 16px;
 	}
 	.tit {
 		font-size: 16px;

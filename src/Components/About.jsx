@@ -1,13 +1,24 @@
-
+import { useEffect } from "react"
 
 export function About() {
+    
+    useEffect(() => {
+        // Set the id and className when the component mounts        
+        document.body.className = 'aboutc';
+
+        // Clean up when the component unmounts
+        return () => {
+            document.body.className = '';
+        };
+    }, []);
+
 
     return (
         <>
             <div className="item2-gap story">
                 <div className="item2">
-                    <h1>A Story of Impact</h1>
-                    <h2>From Storytelling to User-Centric Design</h2>
+                    <h1>Designing with Purpose</h1>
+                    <h2>Connecting Creativity and Technology</h2>
 
                     <div className="allst">
 
@@ -35,7 +46,7 @@ export function About() {
                                 Redesigning for Impact: Blending <span>Creativity</span> and Technical Precision
                             </div>
                             <div className="paratext">
-                                My professional path took a defining turn at Tradeville. As a UI/UX Designer, I took the lead in redesigning their entire website. This wasn't just aesthetics; it was about crafting a <span>more intuitive and engaging experience</span>. I meticulously crafted high-fidelity designs, ensuring every element aligned with user expectations. Translating these designs into functional realities using <span>HTML/CSS</span> in ASP.NET showcased my technical skill and ability to bridge the gap between creativity and practicality.
+                                My professional path took a defining turn at Tradeville. As a UI/UX Designer, I played a key role in redesigning their entire website. This wasn't just aesthetics; it was about crafting a <span>more intuitive and engaging experience</span>. I meticulously crafted high-fidelity designs, ensuring every element aligned with user expectations. Translating these designs into functional realities using <span>HTML/CSS</span> in ASP.NET showcased my technical skill and ability to bridge the gap between creativity and practicality.
                             </div>
                         </div>
 
@@ -68,7 +79,8 @@ export function About() {
 
                         <div className="statement">
                             <div className="bigtitle">
-                                Beyond the day-to-day, I championed <span>collaboration</span>.
+                                Beyond the day-to-day,<br/>
+                                I championed <span>collaboration</span>.
                             </div>
                             <div className="paratext">
                                 In a fast-paced environment where collaboration was crucial, my ability to communicate effectively and adapt to cross-functional goals became essential in driving success. When it came time to integrate Figma into our workflow, <span>I worked closely with stakeholders</span> across the organization—management, marketing, and front-end development—to ensure that every voice was heard and every need was met. By keeping the lines of <span>communication open and transparent</span>, we were able to move fast from concept to final product, ensuring that the design, functionality, and business objectives were perfectly aligned.

@@ -1,14 +1,22 @@
+
 import { Gr } from "../Components/Gr";
-import { useParams } from "react-router-dom";
-import React from "react";
+import { useEffect } from 'react';
 
 export function Graphic() {
-// const param = useParams()
+    
+    useEffect(() => {
+        // Set the id and className when the component mounts        
+        document.body.className = 'graphic';
+
+        // Clean up when the component unmounts
+        return () => {
+            document.body.className = '';
+        };
+    }, []);
+
     return (
         <>
             <Gr/>
         </>
-    )
+    );
 }
-
-// export default Graphic;
